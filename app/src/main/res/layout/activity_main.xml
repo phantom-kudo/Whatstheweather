@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check The weather"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/et_place"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Place"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check the weather"
+        android:padding="5dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:onClick="checkTheWeather"/>
+
+    <TextView
+        android:id="@+id/tv_place"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"/>
+
+
+
+
+</LinearLayout>
